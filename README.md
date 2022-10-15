@@ -146,7 +146,7 @@ Creating an ECO & running xor
 
 ![xor](https://user-images.githubusercontent.com/115497145/195988028-3556aeee-727f-44ad-a5f2-c6eb87eb066e.PNG)
 
-**Day3**
+# Day3
 
 ## Basic Rules
  - width-rule
@@ -214,7 +214,7 @@ To do the open lane flow non-interactively:
   - The violations are seen as white dots in the .mag file
   - To fix the DRC violatiolns manually, Choose .mag file of the error reported design and correct the violations by design rules and then save it to GDSII
 
-#Day 5**
+# Day5
 
 **Lab1**
 
