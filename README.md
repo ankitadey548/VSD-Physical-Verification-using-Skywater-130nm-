@@ -167,6 +167,12 @@ Creating an ECO & running xor
 - notch_rule
   - select the box press key a and move the box by pressing key 8 as many times required
 
+Here is a image for better understanding of width & spacing rules,
+
+
+![exercise_mag_1](https://user-images.githubusercontent.com/115497145/195994666-8c94b67b-1584-46c0-b289-2fdc7fe69c8f.PNG)
+
+
 
 ## Via Rules
 
@@ -186,6 +192,11 @@ Creating an ECO & running xor
 ### Via overlap
 - This can be resolved by growing the box in all directions.
 - *Box grow c* (centre) doesn't solve the issue completely and hence *box grow e* (east) and *box grow w* 
+
+Here is a image for cloning,
+
+![git cloning](https://user-images.githubusercontent.com/115497145/195994594-afdb70db-5109-44cb-8eb2-51f7fcf2ffac.PNG)
+
 
 
 # Day - 4 OpenLane FLow
@@ -236,16 +247,20 @@ eq- We got a cell with 100 connections to VDD and another with 99 connections to
 **Lab1**
 
 Generating netlists from schematic,
+  
 
 ![comp out](https://user-images.githubusercontent.com/115497145/195991251-45629128-6ddb-41a6-b06a-14d5a8f738d9.PNG)
 
+  
+ 
 ![diff netA](https://user-images.githubusercontent.com/115497145/195991384-11315da1-f6cf-45e4-815b-18802c705450.PNG)
 
 
 **Lab2**
 
 Generating LVS netlists from layout,
-
+  
+Running lvs,
 ![run lvs](https://user-images.githubusercontent.com/115497145/195991449-6dc16d3f-487a-4450-a077-7fa370d4042b.PNG)
 
 ![exercise_2_comp out](https://user-images.githubusercontent.com/115497145/195991464-bbf696ef-31ce-4547-8aee-4175f3aa1b12.PNG)
