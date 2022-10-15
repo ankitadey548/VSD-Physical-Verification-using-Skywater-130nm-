@@ -3,3 +3,10 @@ magic
 xschem
 netgen
 ngspice
+
+The libraries supported by open_pdks are:
+Digital standard cells (ex: sky130_fd_sc_hd)
+Primitive devices/analog (ex: sky130_fd_pr)
+I/O cells (ex: sky130_fd_io)
+3rd party libraries (ex: sky130_ml_xx_hd)
+
