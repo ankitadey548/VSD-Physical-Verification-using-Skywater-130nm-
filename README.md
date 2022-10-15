@@ -146,12 +146,60 @@ Creating an ECO & running xor
 
 ![xor](https://user-images.githubusercontent.com/115497145/195988028-3556aeee-727f-44ad-a5f2-c6eb87eb066e.PNG)
 
-DAY 3 
+**Day3**
 
-LAB3 
+## Basic Rules
+ - width-rule
+   - select the area and choose DRC report (?). It details the error
+   - The error is reported only for the area covered by the box
+   - Pressing B key gives the dimensions of the box and grid on option helps view the grid
+   - Select the box manually and paint it or use the following commands:
+   - *:box width 0.14um*
+   - *:paint m2*
+ 
+ - Spacing rule
+  - select the area until the white error dots and press key 6 to stretch the box.
+  - Use move-stret-move command to manually spilt a single box to satisfy the rules.
 
-L1: FOR WIDTH AND SPACING RULE 
+- wide-spacing rule
+  - select the smallest box and move the box by using key 6 and the issue is resolved
+  
+- notch_rule
+  - select the box press key a and move the box by pressing key 8 as many times required
 
+
+## Via Rules
+
+### width-rule - both horizontally and vertically
+- Select the area vertically and press "a" then press key 6 as many times required  to stretch the box horizontally 
+- select the area horizontally and press "a" then press key 8 once and press up arrow as namy times required
+- The below video explains in detail:
+
+
+
+### Multiple vias
+- Contact cuts can be seen using *cif see contact_name*
+- Contacts filt based on the available space
+- Details presented in the video below:
+
+
+### Via overlap
+- This can be resolved by growing the box in all directions.
+- *Box grow c* (centre) doesn't solve the issue completely and hence *box grow e* (east) and *box grow w* 
+
+
+# Day - 4 OpenLane FLow
+
+
+# OpenLane flow - non-interactive
+To do the open lane flow non-interactively:
+- Choose OpenLane -> Designs -> Choose one design of choice
+- src folder has the RTL design
+- Config.tcl has all the parameters required to design and check the circuit
+- Export the path as:
+  export PDK_ROOT=/usr/share/pdk and run ./flow.tcl -design  <design name>
+- It completes all the steps and generates gds files in the "runs" folder.
+  
 
 **Day 5**
 
