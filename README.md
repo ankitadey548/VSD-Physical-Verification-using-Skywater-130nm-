@@ -77,7 +77,7 @@ Inverter graph,
 ![inverter_graph](https://user-images.githubusercontent.com/115497145/195982252-6a64af22-828d-45a0-a835-5c8f60a3e0b6.PNG)
 
 
-**Day2 : **
+
 # Day - 2 Introduction to DRC and LVS
 
 ## GDS read
@@ -201,7 +201,20 @@ To do the open lane flow non-interactively:
 - It completes all the steps and generates gds files in the "runs" folder.
   
 
-**Day 5**
+ ## Common DRC Errors
+  - Follow the local interconnect rules
+  - Plan the density in a appropriate way like, utilizatioln ratio and the cell density
+  
+    Here is a sample config.tcl parameters I used for the c17 design
+  
+ 
+  
+## violations - Fixing manually
+  
+  - The violations are seen as white dots in the .mag file
+  - To fix the DRC violatiolns manually, Choose .mag file of the error reported design and correct the violations by design rules and then save it to GDSII
+
+#Day 5**
 
 **Lab1**
 
