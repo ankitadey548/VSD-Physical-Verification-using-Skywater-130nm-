@@ -145,6 +145,8 @@ L1: FOR WIDTH AND SPACING RULE
 
 **Lab1**
 
+Generating netlists from schematic,
+
 ![comp out](https://user-images.githubusercontent.com/115497145/195991251-45629128-6ddb-41a6-b06a-14d5a8f738d9.PNG)
 
 ![diff netA](https://user-images.githubusercontent.com/115497145/195991384-11315da1-f6cf-45e4-815b-18802c705450.PNG)
@@ -152,12 +154,15 @@ L1: FOR WIDTH AND SPACING RULE
 
 **Lab2**
 
+Generating LVS netlists from layout,
+
 ![run lvs](https://user-images.githubusercontent.com/115497145/195991449-6dc16d3f-487a-4450-a077-7fa370d4042b.PNG)
 
 ![exercise_2_comp out](https://user-images.githubusercontent.com/115497145/195991464-bbf696ef-31ce-4547-8aee-4175f3aa1b12.PNG)
 
 
 **Lab3**
+
 
 ![LVS DONE](https://user-images.githubusercontent.com/115497145/195991588-670c908d-0e79-476f-9cf8-bbdb1cb10b32.PNG)
 
@@ -169,28 +174,40 @@ L1: FOR WIDTH AND SPACING RULE
 
 **Lab5**
 
+Netgen schematic,
 
 ![netgen_xschem](https://user-images.githubusercontent.com/115497145/195991648-f66f5a0d-846a-4ab4-8637-1cfd51eaf0d3.PNG)
 
 
 ![xschem user_analog_project_wrapper1](https://user-images.githubusercontent.com/115497145/195991677-e78eb8b3-187c-4044-918e-c1465198e917.PNG)
 
+Testbench of schematic,
 
 ![xschem_tb](https://user-images.githubusercontent.com/115497145/195991692-e2e0bea5-42e1-4f9d-9318-2c0e2cecea16.PNG)
 
 
 **Lab6**
 
+
 ![box_paint](https://user-images.githubusercontent.com/115497145/195991784-5ed72497-0a60-48f7-addb-d9198a4d4f61.PNG)
+
+
 
 ![example_por](https://user-images.githubusercontent.com/115497145/195991811-45c5f961-ee6a-48c3-a789-30e54b6a3584.PNG)
 
 
 **Lab7**
 
+Changing lvs script for running netgen,
+
 ![changes_in_run_lvs sh](https://user-images.githubusercontent.com/115497145/195991831-fc35884f-2640-4c76-a50b-6b2a3a851565.PNG)
 
+
+Loading digital PLL
+
+
 ![digital_pll](https://user-images.githubusercontent.com/115497145/195991842-1d8a1e3a-2bc5-4cfa-98ac-561992ebf2e4.PNG)
+
 
 ![digital_pll spice](https://user-images.githubusercontent.com/115497145/195991848-501f02b3-24f7-4660-b178-48cee82c2ff8.PNG)
 
@@ -198,16 +215,23 @@ L1: FOR WIDTH AND SPACING RULE
 
 **Lab8**
 
+
+
 ![mgmt](https://user-images.githubusercontent.com/115497145/195991884-f018d2e4-9a64-4253-95ab-88280dd72228.PNG)
 
+
 ![mgmt_project](https://user-images.githubusercontent.com/115497145/195991896-c328c78f-7f10-4fc1-a2c5-8fbee13b020f.PNG)
+
 
 ![run_lvs sh](https://user-images.githubusercontent.com/115497145/195991901-cdcd0db0-e230-4709-83e8-f800e3e8b696.PNG)
 
 
 **Lab11**
 
+
 ![example_por](https://user-images.githubusercontent.com/115497145/195991941-43814410-340a-4264-b757-b3535c450cd2.PNG)
+
+
 
 ![testbench for simple por](https://user-images.githubusercontent.com/115497145/195991971-6b0f4e47-28fc-49d0-a5b6-10f76c069a03.PNG)
 
