@@ -77,7 +77,45 @@ Inverter graph,
 ![inverter_graph](https://user-images.githubusercontent.com/115497145/195982252-6a64af22-828d-45a0-a835-5c8f60a3e0b6.PNG)
 
 
-**Day2 : Lab2**
+**Day2 : **
+
+Standard start, created a directory for the lab2, a directory for the mag file and loaded sky130 tech files into it.
+Today, I came to know about the various cif styles that can be used:
+
+cif listall istyle This lists all the available styles cif list istyle This lists the current style cif istyle sky130(vendor) is set
+
+Read gds files into the magic tkcon terminal and loaded it.
+
+  ```cif istyle sky130 (vendor)
+  gds ..
+  gds noduplicates true (to avoid rewriting the file)```
+Using cell manager, we see the components in the scroll list.
+
+Placed an AND2_1 gate
+
+Analysing various aspects of ports
+
+port first
+
+port 1 name,class,use (spits out default (GDS is bad at taking in metadata. But some order must be there to these ports, to analyze them))
+
+When we look into various aspects of the ports, we see that the .spice file has the ordering completely different to that of the gds.
+
+This is because the magic doesn't use the exact metadata of the gds file. Alternatively, the metadata can be captured from lef and spice files or cdl netlists.
+
+We use the lef command to solve this problem!
+
+I learnt more about the lef command in this website https://teamvlsi.com/2020/05/lef-lef-file-in-asic-design.html
+
+Lef files are associated with placement and routing, therefore we won’t find any transistors present in this particular view. (Abstract view)
+
+Now, we get proper annotation for different ports but still the .spice is not matched with the port ordering.
+
+So, we run the readspice from within the console and match orderings!
+readspice /usr/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+This is really useful but might sometimes lead to errors due to abstract views.
+
 
 Reading gds,
 
