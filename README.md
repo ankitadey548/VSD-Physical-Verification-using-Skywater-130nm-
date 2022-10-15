@@ -215,6 +215,23 @@ To do the open lane flow non-interactively:
   - To fix the DRC violatiolns manually, Choose .mag file of the error reported design and correct the violations by design rules and then save it to GDSII
 
 # Day5
+  
+LVS (Layout vs Schematic)
+Fundamentals of LVS
+The designer does both LVS and DRC before tapeout.
+The netlists produced by each of the processes is compared with each other and matched. After tapeout, its send to the foundry, where it does DRC again before final processes.
+LVS is done by comaring the schematic netlist and the layout netlist
+netgen is the Open Source tool for doing LVS and can understand ssimulatable formats like VerilogRTL and SPICE.
+Schematics
+Schematics are made in Xschem with the components.
+The entire circuitry is converted into one big symbol with I/0 ports.
+The symbol is ran to check it's required working with a testbench and the waveforms are checked.
+LVS Matching
+Purely comparsion based matching techniques.
+
+The main way of check is by checking connections of the cells that needs to be compared.
+
+eq- We got a cell with 100 connections to VDD and another with 99 connections to power rail. What may happen is that the circuit is not matched and each every connection in the cell will flag the same error.
 
 **Lab1**
 
